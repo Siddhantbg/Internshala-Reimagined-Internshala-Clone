@@ -1,0 +1,49 @@
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+  .invert{
+    filter: invert(1);
+  }
+  .inline-block{
+    display: inline-block;
+  }
+  .drop{
+	position: relative;
+	bottom: -5.5px;
+}
+.center{
+    text-align: center;
+}
+  /* Add this to your existing CSS */
+body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  body.dark-mode .topheader {
+    background-color: #333;
+  }
+  
+  body.dark-mode .nav {
+    background-color: #444;
+  }
+  
+  body.dark-mode .nav-item a {
+    color: white;
+  }
+  
+  body.dark-mode .dropdown-menu {
+    background-color: #555;
+    color: white;
+  }
+  
+  body.dark-mode .dropdown-menu a {
+    color: white;
+  }
+  
+  body.dark-mode .dropdown-menu a:hover {
+    background-color: #7A8BFA;
+    color: lightblue;
+  }
+  

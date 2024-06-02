@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="topheader">
+        <button>
+            <img class="invert" style="width:13px; height: 13px;" src="img/sparkle.svg" alt=""> AI resume guide
+        </button>
+        <span>
+            Sign up now to get a free guide on how to boost your resume with AI tools and tips
+        </span>
+        <span style="position: relative; bottom: -7px;">
+            <img src="img/rightarrow.svg" alt="arrow">
+        </span>
+    </div>
+    <div class="navright">
+        <div class="logo inline-block">
+            <img src="assests/internshala_og_image.svg" alt="Internshala Logo">
+        </div>
+        
+        <div class="login inline-block">
+            <button>Login</button>
+         </div>
+        <div class="CandidateSign-up inline-block">
+            <button>Candidate Sign-up</button>
+        </div>
+        <div class="EmployerSign-up inline-block">
+            <button>Employer Sign-up</button>
+        </div>
+        <div class="toggle-btn inline-block">
+            <button id="toggle-button" onclick="myFunction()">
+            <img id="toggle-icon" src="img/dark.svg" alt=""></button>
+        </div>
+    </div>
+    <div class="header">
+        <div class="menu">
+            <svg class="line-top" width="750" height="15" viewbox="0,0 1000,20">
+                <line
+                class="line-dash"
+                x1="0"
+                y1="15"
+                x2="1000"
+                y2="15"
+                style="stroke: orange; stroke-width:2; stroke-linecap:round; stroke-dasharray: 180,1200; stroke-dashoffset: -35;"
+                />
+            </svg>
+            <ul>
+                <li>Internships</li><li>Jobs</li><li>Courses</li><li><img class="invert" src="img/search.svg" style="position: relative;top: 5px;" alt="">Search</li>
+            </ul>
+            <svg class="line-bottom" width="750" height="30" viewbox="0,0 1000,40">
+                <polygon class="lb" points="35,53 115,53 125,43 135,53 215,53" />
+                <polygon class="lb" points="285,53 365,53 375,43 385,53 465,53" />
+                <polygon class="lb" points="535,53 615,53 625,43 635,53 715,53" />
+                <polygon class="lb" points="785,53 865,53 875,43 885,53 965,53" />
+            </svg>
+        </div>
+    </div>
+    <nav>
+        <div class="body">
+            <h2>Make your dream career a reality</h2>
+            <h2 style="font-size: 34px;top: 125px;">Trending on Internshala 🔥</h2>
+        </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="card"><img src="assests/1.png" alt=""></div>
+                    <div class="card"><img src="assests/2.webp" alt=""></div>
+                    <div class="card"><img src="assests/3.webp" alt=""></div>
+                    <div class="card"><img src="assests/4.webp" alt=""></div>
+                    <div class="card"><img src="assests/5.webp" alt=""></div>
+                    <div class="card"><img src="assests/6.webp" alt=""></div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+            <div class="slider-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        
+    </div>
+    </nav>
+    <div class="newbody">
+        <!-- internships -->
+        <h2>Latest Internships on Internshala</h2>
+        <br><br>
+        <h2>Popular Categories:</h2>
+        <div class="cats inline-block">
+        <button>Big brands</button>
+        <button>Work from home</button>
+        <button>Part-time</button>
+        <button>MBA</button>
+        <button>Engineering</button>
+        <button>Media</button>
+        <button>Design</button>
+        <button>Data Design</button>
+    <!-- jons -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="card internships">
+                <div class="hire">
+                   <span class="inline-block">
+                    <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                </span>
+                <span class="inline-block">
+                    Actively hiring 
+                </span>
+              
+            </div>
+            <p style="font-size: 17px;
+            position: relative;
+            left: -41px;
+            top: 4px;">Sound Engineer</p>
+                <p style="color: grey;    color: grey;
+                position: relative;
+                top: 10px;
+                left: -48px;
+                font-size: 10px;">Saregama India Limited</p>
+            <hr style="    position: relative;
+            top: 19px;">
+            <br>
+            <div class="mumbai">
+                <img src="assests/21.png" alt="">
+            </div>
+                </div>
+                <div class="card internships">
+                    <div class="hire">
+                       <span class="inline-block">
+                        <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                    </span>
+                    <span class="inline-block">
+                        Actively hiring 
+                    </span>
+                  
+                </div>
+                <p style="font-size: 17px;
+                position: relative;
+                left: -41px;
+                top: 4px;">Sound Engineer</p>
+                    <p style="color: grey;    color: grey;
+                    position: relative;
+                    top: 10px;
+                    left: -48px;
+                    font-size: 10px;">Saregama India Limited</p>
+                <hr style="    position: relative;
+                top: 19px;">
+                <br>
+                <div class="mumbai">
+                    <img src="assests/21.png" alt="">
+                </div>
+                    </div>
+                    <div class="card internships">
+                        <div class="hire">
+                           <span class="inline-block">
+                            <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                        </span>
+                        <span class="inline-block">
+                            Actively hiring 
+                        </span>
+                      
+                    </div>
+                    <p style="font-size: 17px;
+                    position: relative;
+                    left: -41px;
+                    top: 4px;">Sound Engineer</p>
+                        <p style="color: grey;    color: grey;
+                        position: relative;
+                        top: 10px;
+                        left: -48px;
+                        font-size: 10px;">Saregama India Limited</p>
+                    <hr style="    position: relative;
+                    top: 19px;">
+                    <br>
+                    <div class="mumbai">
+                        <img src="assests/21.png" alt="">
+                    </div>
+                        </div>
+                        <div class="card internships">
+                            <div class="hire">
+                               <span class="inline-block">
+                                <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                            </span>
+                            <span class="inline-block">
+                                Actively hiring 
+                            </span>
+                          
+                        </div>
+                        <p style="font-size: 17px;
+                        position: relative;
+                        left: -41px;
+                        top: 4px;">Sound Engineer</p>
+                            <p style="color: grey;    color: grey;
+                            position: relative;
+                            top: 10px;
+                            left: -48px;
+                            font-size: 10px;">Saregama India Limited</p>
+                        <hr style="    position: relative;
+                        top: 19px;">
+                        <br>
+                        <div class="mumbai">
+                            <img src="assests/21.png" alt="">
+                        </div>
+                            </div>
+                            <div class="card internships">
+                                <div class="hire">
+                                   <span class="inline-block">
+                                    <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                                </span>
+                                <span class="inline-block">
+                                    Actively hiring 
+                                </span>
+                              
+                            </div>
+                            <p style="font-size: 17px;
+                            position: relative;
+                            left: -41px;
+                            top: 4px;">Sound Engineer</p>
+                                <p style="color: grey;    color: grey;
+                                position: relative;
+                                top: 10px;
+                                left: -48px;
+                                font-size: 10px;">Saregama India Limited</p>
+                            <hr style="    position: relative;
+                            top: 19px;">
+                            <br>
+                            <div class="mumbai">
+                                <img src="assests/21.png" alt="">
+                            </div>
+                                </div>
+                                <div class="card internships">
+                                    <div class="hire">
+                                       <span class="inline-block">
+                                        <img style="width: 20px; height: 20px;" src="img/rise.svg" alt="">
+                                    </span>
+                                    <span class="inline-block">
+                                        Actively hiring 
+                                    </span>
+                                  
+                                </div>
+                                <p style="font-size: 17px;
+                                position: relative;
+                                left: -41px;
+                                top: 4px;">Sound Engineer</p>
+                                    <p style="color: grey;    color: grey;
+                                    position: relative;
+                                    top: 10px;
+                                    left: -48px;
+                                    font-size: 10px;">Saregama India Limited</p>
+                                <hr style="    position: relative;
+                                top: 19px;">
+                                <br>
+                                <div class="mumbai">
+                                    <img src="assests/21.png" alt="">
+                                </div>
+                                    </div>
+        </div>
+    </div>
+    <div class="slider-nav">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+    </div>
+    <div class="slider-indicators">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+    </div>
+
+</div>
+        <h2>Latest Jobs on Internshala</h2>
+        <br><br>
+        <h2>Popular Categories:</h2>
+        <div class="cats inline-block">
+        <button>Big brands</button>
+        <button>Work from home</button>
+        <button>Part-time</button>
+        <button>MBA</button>
+        <button>Engineering</button>
+        <button>Media</button>
+        <button>Design</button>
+        <button>Data Design</button>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="card jobs"><img src="assests/dews1.png" alt=""></div>
+            <div class="card jobs"><img src="assests/des2.png" alt=""></div>
+            <div class="card jobs"><img src="assests/des3.png" alt=""></div>
+            <div class="card jobs"><img src="assests/des4.png" alt=""></div>
+            <div class="card jobs"><img src="assests/Screenshot 2024-06-02 064849.png" alt=""></div>
+            <div class="card jobs"><img src="assests/des6.png" alt=""></div>
+        </div>
+    </div>
+    <div class="slider-nav">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+    </div>
+    <div class="slider-indicators">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Internships by places</h3>
+                <ul>
+                    <li>Internship in India</li>
+                    <li>Internship in Delhi</li>
+                    <li>Internship in Bangalore</li>
+                    <li>Internship in Hyderabad</li>
+                    <li>Internship in Mumbai</li>
+                    <li>Internship in Chennai</li>
+                    <li>Internship in Gurgaon</li>
+                    <li>Internship in Kolkata</li>
+                    <li>Virtual internship</li>
+                    <li>View all internships</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Internship by Stream</h3>
+                <ul>
+                    <li>Computer Science Internship</li>
+                    <li>Electronics Internship</li>
+                    <li>Mechanical Internship</li>
+                    <li>Civil Internship</li>
+                    <li>Marketing Internship</li>
+                    <li>Chemical Internship</li>
+                    <li>Finance Internship</li>
+                    <li>Summer Research Fellowship</li>
+                    <li>Campus Ambassador Program</li>
+                    <li>View all internships</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Jobs by Places</h3>
+                <ul>
+                    <li>Jobs in Delhi</li>
+                    <li>Jobs in Mumbai</li>
+                    <li>Jobs in Bangalore</li>
+                    <li>Jobs in Jaipur</li>
+                    <li>Jobs in Kolkata</li>
+                    <li>Jobs in Hyderabad</li>
+                    <li>Jobs in Pune</li>
+                    <li>Jobs in Chennai</li>
+                    <li>Jobs in Lucknow</li>
+                    <li>View all jobs</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Jobs by Stream</h3>
+                <ul>
+                    <li>Marketing jobs</li>
+                    <li>Content writing jobs</li>
+                    <li>Web development jobs</li>
+                    <li>Sales jobs</li>
+                    <li>Finance jobs</li>
+                    <li>Digital Marketing jobs</li>
+                    <li>Computer Science jobs</li>
+                    <li>Graphic Design jobs</li>
+                    <li>Data Science jobs</li>
+                    <li>View all jobs</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Placement Guarantee Courses</h3>
+                <ul>
+                    <li>Full Stack Development course with placement</li>
+                    <li>Data Science course with placement</li>
+                    <li>Human Resource Management course with placement</li>
+                    <li>Digital Marketing course with placement</li>
+                    <li>Electric Vehicle course with placement</li>
+                    <li>UI/UX Design course with placement</li>
+                    <li>Product Management course with placement</li>
+                </ul>
+                <h3>Certification Courses <span class="offer">OFFER</span></h3>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li>About us</li>
+                <li>Team Diary</li>
+                <li>Terms & Conditions</li>
+                <li>Sitemap</li>
+                <li>We're hiring</li>
+                <li>Blog</li>
+                <li>Privacy</li>
+                <li>College TPO registration</li>
+                <li>Hire interns for your company</li>
+                <li>Our Services</li>
+                <li>Contact us</li>
+                <li>List of Companies</li>
+                <li>Post a Job</li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="google-play.png" alt="Get Android App"></a>
+            <div class="social-icons">
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; Copyright 2024 Internshala
+        </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
